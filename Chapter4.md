@@ -97,7 +97,7 @@ tempFrozenSet.add('Huanhuan') 	# Illegal in Frozen Set
 tempDict = {'name': 'Siyang','code':2333, 'gender': 'male'}
 ```
 ## Are both reference and value types supported?
-In Python, a variable is just an identifier points to an object in memory. Therefore, variable does not have a type. The type belongs to the object. This is also the reason why variables in Python can be assigned to any type. Accroding to this feature, the concern is whether a type is mutable or not. From above, we know that numeric, string, tuple and frozenset are immutable. Names that are bound to an object of one of those immutable typs can only be rebound.
+In Python, a variable is just an identifier points to an object in memory. Therefore, variable does not have a type. The type belongs to the object. This is also the reason why variables in Python can be assigned to any type. Accroding to this feature, the concern is whether a type is mutable or not. From above, we know that `numeric`, `string`, `tuple` and `frozenset` are immutable. Names that are bound to an object of one of those immutable typs can only be rebound.
 
 ```
 def foo(arg):
@@ -107,7 +107,7 @@ x = 1
 foo(x)    # output is 5
 print(x)  # output is 1
 ```
-In the code above, both x and arg points to the '1' in memory. In funciton foo, since int object is immutable, a new object with a value of '5' was created, and arg rebound to this object. While x still points to the object with value '1'.
+In the code above, both x and arg points to the '1' in memory. In funciton foo, since `int` object is immutable, a new object with a value of '5' was created, and arg rebound to this object. While x still points to the object with value '1'.
 
 ```
 def foo(arg):
@@ -117,7 +117,7 @@ print(x)   # output is [1, 2]
 foo(x)
 print(x)   # output is [1, 2, 3]
 ```
-In the code above, both x and arg points to the same list in memory. Since list object is mutable, function append allows arg having a new element at the end of the list. While x still points to the same list object, content of variable x also changed.
+In the code above, both x and arg points to the same list in memory. Since `list` object is mutable, function append allows arg having a new element at the end of the list. While x still points to the same list object, content of variable x also changed.
 
 ## Can new value types be created?
 **Yes.** Creating a new value types by creating a class. For example, creating a new value type as 2-d vector.
