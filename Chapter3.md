@@ -8,11 +8,14 @@ A **namespace** is a mapping of every defined names to its corresponding objects
 ## How are name spaces used?
 Namespaces are created at different moments with varied lifetimes. In Python, namespaces can be:
 - The set of built-in names (containing built-in names such as abs());
+
 	Created when Python interpreter starts up.
 	Deleted when the interpreter quits.
 - The global names in a module;
+
 	Created when the module definition is read in.
 	Deleted when the interpreter quits.
 - The local names in a function invocation.
+
 	Created when the function is invoked.
 	Deleted when the function returns or raises unhandled exception within the function.
