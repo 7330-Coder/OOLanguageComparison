@@ -23,5 +23,5 @@ There are some features Python wants to address.
 Van Rossum created Python as a descendant of ABC. ABC is not mean to be a programming language but a language for teaching or prototping.  However, since it is not open source, which lose the attraction to let people use it widely. Also, Python do not have all of its functionality built into its core and gains extensibility, while ABC espoused the opposite approach.
 
 ## Reference
-- [_Python Wikipedia_](https://en.wikipedia.org/wiki/Python_(programming_language) introduces the detailed history ,features and principles of Python.
+- [_Python Wikipedia_](https://en.wikipedia.org/wiki/Python_(programming_language)) introduces the detailed history ,features and principles of Python.
 - [_Python official website_](https://www.python.org/) shows the latest updates and community.
