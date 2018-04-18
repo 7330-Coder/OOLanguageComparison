@@ -1,4 +1,4 @@
-# Chapter 7 : Properties
+# Chapter 7 : Properties (Python)
 
 ## Getters and Setters (write your own or built in?)
 In Python, there are no built-in getters and setters. The code block below is to define getter and setter interface.

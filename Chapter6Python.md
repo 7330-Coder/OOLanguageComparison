@@ -1,4 +1,4 @@
-# Chapter 6 : Instance Reference Name in Data Type
+# Chapter 6 : Instance Reference Name in Data Type (Python)
 
 ## this or self?
 It can be said that both `self` and `this` are used for accessing the variables and functions associated with the current instance. The difference in Python is to include `self` explicitly as the first parameter to an instance method in Python. Whereas `this` is not used like this in other OO language like JAVA or C#.  Actually, `self` is not a keyword in Python, it can by anything but using `self` now becomes a convention.
