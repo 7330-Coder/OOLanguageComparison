@@ -22,7 +22,7 @@ This is the final project of CS7330-Object Oriented Design.
 - [Chapter 6: Instance Reference Name in Data Type] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter6Python.md)  &nbsp; [Swift] )
 - [Chapter 7: Properties] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter7Python.md)  &nbsp; [Swift] )
 - [Chapter 8: Interface & Protocols] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter8Python.md)  &nbsp; [Swift] )
-- [Chapter 9: Inheritance & Extension] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )
+- [Chapter 9: Inheritance & Extension] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter9Python.md)  &nbsp; [Swift] )
 - [Chapter 10: Reflection] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )
 - [Chapter 11: Memory Management] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )
 - [Chapter 12: Comparisons of References and Values] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )

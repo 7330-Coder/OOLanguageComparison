@@ -63,3 +63,6 @@ price = price.getter(get_price)
 price = price.setter(get_price)
 ```
 In conclusion, depending on the way we access a property object, it dispatches to perform either "getters", "setters" or "delete". The dispatch functions are specified when the property object is created using decorators.
+
+## Reference
+- [_Programiz Python Tutorial_](https://www.programiz.com/python-programming/property)

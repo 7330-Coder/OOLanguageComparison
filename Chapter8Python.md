@@ -3,6 +3,7 @@
 ## What does the language support?
 Interface is the description of how an object behaves. It specify what an object can do to paly it's role in a system and set clear boundaries to help us organize code better. However, there is no `interface` keyword in Python since it is a dynamic language. It focuses on how an object behaves, rather than it's role, or to say it's type/class.
 >If it talks and walks like a duck, then it is a duck.
+
 So any object, regardless of it’s role (class/type), can conform to a certain interface just by implementing the expected behavior (methods). These informal interfaces are termed as `protocols`. 
 
 ## What abilities does it have?
@@ -34,3 +35,5 @@ The line below shows a container protocol.
 print("Huanhuan" in oo_final_project)
 ```
 
+## Reference
+- [_Interfaces in Python: Protocols and ABCs_](http://masnun.rocks/2017/04/15/interfaces-in-python-protocols-and-abcs/)

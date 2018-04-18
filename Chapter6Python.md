@@ -22,3 +22,6 @@ can be internally transform to
 Vec2.getData(vector1)
 ```
 Python could do something like requiring declarations likw JAVA or C#, to distinguish normal names from atributes. But Python holds the principle of **Explicit is better than implicit** and that is the reason why `self` is needed.
+
+## Reference
+- [_Explaination of the difference between this in Java and self in Python on StackOverflow_](https://stackoverflow.com/a/2709832)
