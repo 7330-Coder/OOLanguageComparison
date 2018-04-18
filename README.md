@@ -14,11 +14,11 @@ This is the final project of CS7330-Object Oriented Design.
 
 # Content
 
-- [Chapter 1: Language purpose] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter1.md)  &nbsp; [Swift] )
-- [Chapter 2: Unique Features] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter2.md)  &nbsp; [Swift] )
-- [Chapter 3: Name Space] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter3.md)  &nbsp; [Swift] )
-- [Chapter 4: Types] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter4.md)  &nbsp; [Swift] )
-- [Chapter 5: Classes] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter5.md)  &nbsp; [Swift] )
+- [Chapter 1: Language purpose] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter1Python.md)  &nbsp; [Swift] )
+- [Chapter 2: Unique Features] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter2Python.md)  &nbsp; [Swift] )
+- [Chapter 3: Name Space] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter3Python.md)  &nbsp; [Swift] )
+- [Chapter 4: Types] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter4Python.md)  &nbsp; [Swift] )
+- [Chapter 5: Classes] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter5Python.md)  &nbsp; [Swift] )
 - [Chapter 6: Instance Reference Name in Data Type] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )
 - [Chapter 7: Properties] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )
 - [Chapter 8: Interface & Protocols] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )
