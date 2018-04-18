@@ -10,9 +10,9 @@ Python's built-in data types can be grouped as follows:
 ```
 flag = None
 if condition1:
-   flag = True
+  flag = True
 if flag:
-   # do some stuff
+  # do some stuff
 ```
 
 - Numeric Types
@@ -101,8 +101,8 @@ In Python, a variable is just an identifier points to an object in memory. There
 
 ```
 def foo(arg):
-	arg = 5
-	print(arg)
+  arg = 5
+  print(arg)
 x = 1
 foo(x)    # output is 5
 print(x)  # output is 1
@@ -111,7 +111,7 @@ In the code above, both x and arg points to the '1' in memory. In funciton foo, 
 
 ```
 def foo(arg):
-	arg.append(3)
+  arg.append(3)
 x = [1, 2]
 print(x)   # output is [1, 2]
 foo(x)
@@ -124,12 +124,12 @@ In the code above, both x and arg points to the same list in memory. Since list 
 
 ```
 class Vec2(object):
-	def __init__(self, x, y): 
-		self.x = x 
-		self.y = y
-	def __sub__(self, other)
-		dist = ((other[0] - self[0])**2 + (other[1] - self[1])**2)**0.5
-		return dist
+  def __init__(self, x, y): 
+    self.x = x 
+    self.y = y
+  def __sub__(self, other)
+    dist = ((other[0] - self[0])**2 + (other[1] - self[1])**2)**0.5
+    return dist
 ```
 
 ## Reference
