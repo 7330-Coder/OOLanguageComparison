@@ -32,7 +32,7 @@ if flag:
 
 ```python
 tempInt = -0x69
-tempLong = 0122L
+tempLong = 122L
 tempFloat = 32.5e+18
 tempComplex = 3.14+5J
 tempStr = 'Hello World!'
@@ -123,7 +123,7 @@ In the code above, both x and arg points to the same list in memory. Since `list
 **Yes.** Creating a new value types by creating a class. For example, creating a new value type as 2-d vector.
 
 ```python
-class Vec2(object):
+class Vec2:
   def __init__(self, x, y): 
     self.x = x 
     self.y = y
