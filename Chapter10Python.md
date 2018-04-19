@@ -34,7 +34,7 @@ class person:
 
 p = person()
 print('The gender is:', getattr(p, 'gender, 'Male'))	# Output: The gender is: Male
-print('The gender is:', getattr(p, 'gender))			# AttributeError: 'person' object has no attribute 'gender'
+print('The gender is:', getattr(p, 'gender))			    # AttributeError: 'person' object has no attribute 'gender'
 ```
 If the attribute name and default value will be determined at runtime:
 ```python
@@ -44,7 +44,7 @@ getattr(p, name, default_value)
 ### Find Out Type of an Object
 If a single object is passed to `type()` built-in, it returns type of the given object. If three arguments (name, bases and dict) are passed, it returns a new type object. 
 ```python
-print(type(3).__name__ == "int")		# Output is True
+print(type(3).__name__ == "int")		    # Output is True
 print(type('Hello').__name__ == "str")	# Output is True
 ```
 If the object will be determined at runtime:
@@ -77,7 +77,7 @@ class Tree(Plant):
 
 tree = Tree()
 print(issubclass(Tree, Plant))           # Output is True
-print(issubclass(Tree, (list, Tree)))	 # Output is True
+print(issubclass(Tree, (list, Tree)))	   # Output is True
 ```
 Note that class is considered a subclass of itself.
 
@@ -95,7 +95,7 @@ class person:
 
 p = person()
 print(callable(person))		# Output is True
-print(callable(p))			# Output is True
+print(callable(p))			  # Output is True
 ```
 The code block below shows the class `person` is callable.
 ```Python
