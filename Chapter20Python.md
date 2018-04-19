@@ -1,4 +1,4 @@
-# Chapter 20 : Multithreading
+# Chapter 20 : Multithreading (Python)
 
 ## Threads or thread-like abilities
 `_thread` module and `threading` module are often used in working with threads in Python. `_thread` module provides low-level primitives for working with multiple threads. The `threading` module provides a more powerful and higher-level threading interfaces built on top of the `_thread` module. 
