@@ -9,7 +9,7 @@ A protocol defines a blueprint of methods, properties, and other requirements th
 In addition to specifying requirements that conforming types must implement, you can extend a protocol to implement some of these requirements or to implement additional functionality that conforming types can take advantage of.
 ### How is it used?
 Here's an example of a protocol with a single instance property requirement:
-```
+```Swift
 protocol FullyNamed {
     var fullName: String { get }
 }
@@ -17,7 +17,7 @@ protocol FullyNamed {
 The FullyNamed protocol requires a conforming type to provide a fully-qualified name. The protocol doesn’t specify anything else about the nature of the conforming type—it only specifies that the type must be able to provide a full name for itself. The protocol states that any FullyNamed type must have a gettable instance property called fullName, which is of type String.
 
 Here’s an example of a simple structure that adopts and conforms to the FullyNamed protocol:
-```
+```Swift
 struct Person: FullyNamed {
     var fullName: String
 }

@@ -5,7 +5,7 @@ Reflection in Swift is easy using the struct Mirror, with it we can inspect the 
 ### How is reflection used?
 
 Imagine we have a struct called Book which looks like this:
-```
+```Swift
 struct Book {
     let title: String
     let author: String?
@@ -16,11 +16,11 @@ struct Book {
 }
 ```
 Then we can create an instance of Book:
-```
+```Swift
 let book = Book(title: "Harry Potter", author: "J.K. Rowling", published: Date(), numberOfPages: 450, chapterCount: 19, genres: ["Fantasy", "Best books ever"])
 ```
 And then it is super easy to look at the properties if the Harry Potter book instance using the Mirror struct.
-```
+```Swift
 let bookMirror = Mirror(reflecting: book)
 for (name, value) in bookMirror.children {
     guard let name = name else { continue }

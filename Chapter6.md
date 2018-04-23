@@ -1,6 +1,6 @@
 # Chapter 6 : Instance Reference Name in Data Type
 In Swift, the keyword self is used to access instance properties and methods.
-```
+```Swift
 struct Weather {
 
   let windSpeed: Int    // miles per hour
@@ -21,7 +21,7 @@ struct Weather {
 }
 ```
 It is also used to access type properties and methods.
-```
+```Swift
 struct Const {  
   static let minLimit = 0
   static let maxLimit = 250

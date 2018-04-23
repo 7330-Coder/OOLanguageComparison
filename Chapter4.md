@@ -16,14 +16,14 @@ class Student {
 }
 ```
 Now a group of students can be represented as an array as:
-```
+```Swift
 var students:Array<Student> = []
 ```
 The above declaration can be made more readable by creating your own type for Array<Student> using typealias as:
-```
+```Swift
 typealias Students = Array<Student>
 ```
 Now we can make our code more readable as:
-```
+```Swift
 var students:Students = []
 ```

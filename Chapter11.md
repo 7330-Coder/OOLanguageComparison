@@ -16,7 +16,7 @@ To make this possible, whenever you assign a class instance to a property, const
 There is no "garbage collection" in Swift like JVM in Java. All memory allocations and deallocations are inserted by the compiler following the ARC memory management techniques as in Object C. 
 ### Automatic reference counting
 Here's an example of how Automatic Reference Counting works. This example starts with a simple class called Person, which defines a stored constant property called name:
-```
+```Swift
 class Person {
     let name: String
     init(name: String) {
