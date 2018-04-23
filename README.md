@@ -32,7 +32,7 @@ This is the final project of CS7330-Object Oriented Design.
 - [Chapter 16: Implementation of Listeners and Event Handlers] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )
 - [Chapter 17: Singleton] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )
 - [Chapter 18: Procedural Programming] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )
-- [Chapter 19: Functional Programming] &nbsp; &nbsp; ([Python]  &nbsp; [Swift] )
+- [Chapter 19: Functional Programming] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter19Python.md)  &nbsp; [Swift] )
 - [Chapter 20: Multithreading] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/Huanhuan/Chapter20Python.md)  &nbsp; [Swift] )
 
 License
