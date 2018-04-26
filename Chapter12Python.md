@@ -1,38 +1,61 @@
-# Chapter 11: Memory management
+# Chapter 12: Comparisons of references and values
 
 ## Python
 
-### Overview
-  Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager. The Python memory manager has different components which deal with various dynamic storage management aspects, like sharing, segmentation, preallocation or caching.
+**Assume variable a holds 10 and variable b holds 20, then** 
+   ``` #!/usr/bin/python
+    a = 21
+    b = 10
+    c = 0
+        
+    if ( a == b ):
+       print "Line 1 - a is equal to b"
+    else:
+       print "Line 1 - a is not equal to b"
+    
+    if ( a != b ):
+       print "Line 2 - a is not equal to b"
+    else:
+       print "Line 2 - a is equal to b"
+        
+    if ( a <> b ):
+       print "Line 3 - a is not equal to b"
+    else:
+       print "Line 3 - a is equal to b"
+        
+    if ( a < b ):
+       print "Line 4 - a is less than b" 
+    else:
+       print "Line 4 - a is not less than b"
+        
+    if ( a > b ):
+       print "Line 5 - a is greater than b"
+    else:
+       print "Line 5 - a is not greater than b"
+        
+    a = 5;
+    b = 20;
+    if ( a <= b ):
+       print "Line 6 - a is either less than or equal to  b"
+    else:
+       print "Line 6 - a is neither less than nor equal to  b"
+        
+    if ( b >= a ):
+       print "Line 7 - b is either greater than  or equal to b"
+    else:
+       print "Line 7 - b is neither greater than  nor equal to b"
+```
+           
 
-### How will it work?
-  At the lowest level, a raw memory allocator ensures that there is enough room in the private heap for storing all Python-related data by interacting with the memory manager of the operating system. On top of the raw memory allocator, several object-specific allocators operate on the same heap and implement distinct memory management policies adapted to the peculiarities of every object type. For example, integer objects are managed differently within the heap than strings, tuples or dictionaries because integers imply different storage requirements and speed/space tradeoffs. The Python memory manager thus delegates some of the work to the object-specific allocators, but ensures that the latter operate within the bounds of the private heap.
-
-### Garbage Collection and Rference counting in Python
-  **Garbage Collection**
-Python’s memory allocation and deallocation method is automatic. The user does not have to preallocate or deallocate memory similar to using dynamic memory allocation in languages such as C or C++.
-Python uses two strategies for memory allocation: Reference counting and Garbage collection. One can inspect the threshold for new objects (objects in Python known as generation 0 objects) by importing the gc module and asking for garbage collection thresholds:
+**When you execute the above program it produces the following result -**
   ```
-  # loading gc
-  import gc
- 
-  # get the current collection 
-  # thresholds as a tuple
-  print("Garbage collection thresholds:",
-                     gc.get_threshold())
+    Line 1 - a is not equal to b
+    Line 2 - a is not equal to b
+    Line 3 - a is not equal to b
+    Line 4 - a is not less than b
+    Line 5 - a is greater than b
+    Line 6 - a is either less than or equal to b
+    Line 7 - b is either greater than or equal to b
   ```
-
-  **Rference counting**
-Since Python makes heavy use of malloc() and free(), it needs a strategy to avoid memory leaks as well as the use of freed memory. The chosen method is called reference counting. The principle is simple: every object contains a counter, which is incremented when a reference to the object is stored somewhere, and which is decremented when a reference to it is deleted. When the counter reaches zero, the last reference to the object has been deleted and the object is freed.
-An alternative strategy is called automatic garbage collection. (Sometimes, reference counting is also referred to as a garbage collection strategy, hence my use of ``automatic'' to distinguish the two.) The big advantage of automatic garbage collection is that the user doesn't need to call free() explicitly. (Another claimed advantage is an improvement in speed or memory usage -- this is no hard fact however.) The disadvantage is that for C, there is no truly portable automatic garbage collector, while reference counting can be implemented portably (as long as the functions malloc() and free() are available -- which the C Standard guarantees). Maybe some day a sufficiently portable automatic garbage collector will be available for C. Until then, we'll have to live with reference counts.
-
-
-### References:
-* [Greeks For Geeks]
-* [Extending and Embedding the Python Interpreter]
-* [Python/C API Reference Manual]
-
-
-[Greeks For Geeks]: <https://www.geeksforgeeks.org/garbage-collection-python/>
-[Extending and Embedding the Python Interpreter]: <https://docs.python.org/2.2/ext/about.html>
-[Python/C API Reference Manual]: <https://docs.python.org/3/c-api/memory.html>
+  
+  
