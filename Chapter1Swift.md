@@ -11,7 +11,7 @@ Swift was introduced at Apple's 2014 Worldwide Developers Conference (WWDC). It 
 Swift cares more on security, it makes sure more errors are detected before compiling. So, the developer may feel limited at first, but the standard of syntax ensures the quality and robustness. In addition, Swift’s performance is comparable to these languages in most tasks. The performance also has to be consistent and predictable, not just for short bursts that would require a a lot of work later on. And Expressive-Swift offers a syntax that is easy to use and has the features that most developers expect. Even now the languages advancements are being are being monitored, which means that swift is continuously evolving.
 
 ### Is the language a reaction to a previous language or a replacement for another language?
-Object-C, C, C++
+Objective-C, C, C++
 
 ### Related Website
 [https://en.wikipedia.org/wiki/Swift_(programming_language)#Version_History](https://en.wikipedia.org/wiki/Swift_(programming_language)#Version_History)
