@@ -31,7 +31,7 @@ This is the final project of CS7330-Object Oriented Design.
 - [Chapter 15: Lambda Expressions, Closures, or Functions as Types] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter15Python.md)  &nbsp; [Swift](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter15Swift.md) )
 - [Chapter 16: Implementation of Listeners and Event Handlers] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter16Python.md)  &nbsp; [Swift](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter16Swift.md) )
 - [Chapter 17: Singleton] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter17Python.md)  &nbsp; [Swift](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter17Swift.md) )
-- [Chapter 18: Procedural Programming] &nbsp; &nbsp; ([Python]  &nbsp; [Swift](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter18Swift.md) )
+- [Chapter 18: Procedural Programming] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter18Python.md)  &nbsp; [Swift](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter18Swift.md) )
 - [Chapter 19: Functional Programming] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter19Python.md)  &nbsp; [Swift](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter19Swift.md) )
 - [Chapter 20: Multithreading] &nbsp; &nbsp; ([Python](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter20Python.md)  &nbsp; [Swift](https://github.com/7330-Coder/OOLanguageComparison/blob/master/Chapter20Swift.md) )
 
